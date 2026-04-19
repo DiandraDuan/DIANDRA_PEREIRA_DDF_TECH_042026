@@ -35,7 +35,7 @@ em uma base enriquecida e reutilizável, com:
 
 ## O que foi entregue
 
-- Pipeline em Python modular
+- Pipeline em Python
 - Organização em camadas: **raw / bronze / silver / gold**
 - Limpeza e padronização dos dados
 - Regras de **Data Quality** com relatório automatizado
@@ -89,6 +89,14 @@ A arquitetura segue uma abordagem em camadas:
 8. Geração de tabelas gold
 9. Consumo via Streamlit
 
+## Observação sobre os arquivos de entrada
+
+Os arquivos brutos utilizados no desenvolvimento (`amazon_products.csv` e `amazon_categories.csv`) não foram versionados no repositório devido ao volume.
+
+Para executar o projeto localmente, basta posicionar os arquivos em:
+
+```text
+data/raw/
 ---
 
 ## Estrutura do Projeto
