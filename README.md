@@ -99,7 +99,6 @@ Para executar o projeto localmente, basta posicionar os arquivos em:
 
 data/raw/
 
-
 ## Como Executar o Projeto
 
 ### Clonar o repositório
@@ -122,7 +121,9 @@ python main.py
 streamlit run app/streamlit_app.py
 
 
+
 ## Estrutura do Projeto
+
 case_tecnico_diandra/
 │
 ├── main.py
