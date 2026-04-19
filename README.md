@@ -95,9 +95,7 @@ Os arquivos brutos utilizados no desenvolvimento (`amazon_products.csv` e `amazo
 
 Para executar o projeto localmente, basta posicionar os arquivos em:
 
-```text
 data/raw/
----
 
 ## Estrutura do Projeto
 
