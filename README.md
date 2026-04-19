@@ -99,10 +99,6 @@ Para executar o projeto localmente, basta posicionar os arquivos em:
 
 data/raw/
 
-## Estrutura do Projeto
-
-case_tecnico_diandra/
-
 
 ## Como Executar o Projeto
 
@@ -125,6 +121,9 @@ python main.py
 ```bash
 streamlit run app/streamlit_app.py
 
+
+## Estrutura do Projeto
+case_tecnico_diandra/
 │
 ├── main.py
 ├── README.md
