@@ -101,8 +101,30 @@ data/raw/
 
 ## Estrutura do Projeto
 
-```text
 case_tecnico_diandra/
+
+
+## Como Executar o Projeto
+
+### Clonar o repositório
+
+```bash
+git clone <https://github.com/DiandraDuan/DIANDRA_PEREIRA_DDF_TECH_042026.git>
+cd CASE_TECNICO_DIANDRA
+
+### Instalar dependências
+
+```bash
+pip install -r requirements.txt
+
+### Executar pipeline
+```bash
+python main.py
+
+### Executar pipeline
+```bash
+streamlit run app/streamlit_app.py
+
 │
 ├── main.py
 ├── README.md
