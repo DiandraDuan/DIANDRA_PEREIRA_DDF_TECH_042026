@@ -91,7 +91,9 @@ A arquitetura segue uma abordagem em camadas:
 
 ## Observação sobre os arquivos de entrada
 
-Os arquivos brutos utilizados no desenvolvimento (`amazon_products.csv` e `amazon_categories.csv`) não foram versionados no repositório devido ao volume, mas podem ser acessados em: https://www.kaggle.com/datasets/asaniczka/amazon-products-dataset-2023-1-4m-products
+Os arquivos brutos utilizados no desenvolvimento (`amazon_products.csv` e `amazon_categories.csv`) não foram versionados no repositório devido ao volume, mas podem ser acessados em: 
+
+https://www.kaggle.com/datasets/asaniczka/amazon-products-dataset-2023-1-4m-products
 
 Para executar o projeto localmente, basta posicionar os arquivos em:
 
