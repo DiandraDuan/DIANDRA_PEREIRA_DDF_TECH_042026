@@ -114,6 +114,6 @@ pip install -r requirements.txt
 
 python main.py
 
-### Executar pipeline
+### Executar dashboard
 
 streamlit run app/streamlit_app.py
