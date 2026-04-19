@@ -1,0 +1,38 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter / sistema
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Dados brutos e intermediários
+data/raw/*
+data/bronze/*
+data/silver/*
+
+# Permitir manter a estrutura das pastas com .gitkeep (se quiser)
+!data/raw/.gitkeep
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+
+# Gold (opcional - comente se quiser subir os gold csv)
+# data/gold/*
+
+# Outputs
+outputs/logs/*
+outputs/quality_reports/*.xlsx
+
+# Streamlit cache
+.streamlit/
+
+# Arquivos grandes / temporários
+*.parquet
+*.log

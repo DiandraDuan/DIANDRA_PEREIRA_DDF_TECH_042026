@@ -1,0 +1,8 @@
+check_name,result,details
+products_asin_not_null,True,nulos: 0
+products_asin_unique,True,duplicados: 0
+products_title_not_null,True,nulos: 0
+products_price_non_negative,True,valores inválidos: 0
+products_stars_between_0_5,True,fora da faixa: 0
+products_reviews_non_negative,True,valores inválidos: 0
+category_fk_valid,True,fora da dimensão: 0
